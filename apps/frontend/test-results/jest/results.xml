@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="0" errors="0" time="3.103">
+  <testsuite name="TodoList" errors="0" failures="0" skipped="0" timestamp="2025-05-05T09:14:36" time="1.287" tests="3">
+    <testcase classname="TodoList renders empty state when no todos are available" name="TodoList renders empty state when no todos are available" time="0.036">
+    </testcase>
+    <testcase classname="TodoList renders a list of todos when available" name="TodoList renders a list of todos when available" time="0.006">
+    </testcase>
+    <testcase classname="TodoList handles errors when fetching todos" name="TodoList handles errors when fetching todos" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="TodoForm" errors="0" failures="0" skipped="0" timestamp="2025-05-05T09:14:36" time="1.474" tests="7">
+    <testcase classname="TodoForm renders the form correctly" name="TodoForm renders the form correctly" time="0.086">
+    </testcase>
+    <testcase classname="TodoForm allows entering title and description" name="TodoForm allows entering title and description" time="0.017">
+    </testcase>
+    <testcase classname="TodoForm submits the form with title and description" name="TodoForm submits the form with title and description" time="0.033">
+    </testcase>
+    <testcase classname="TodoForm submits the form with title only" name="TodoForm submits the form with title only" time="0.024">
+    </testcase>
+    <testcase classname="TodoForm does not submit the form with empty title" name="TodoForm does not submit the form with empty title" time="0.016">
+    </testcase>
+    <testcase classname="TodoForm clears the form after successful submission" name="TodoForm clears the form after successful submission" time="0.014">
+    </testcase>
+    <testcase classname="TodoForm displays an error message when submission fails" name="TodoForm displays an error message when submission fails" time="0.018">
+    </testcase>
+  </testsuite>
+  <testsuite name="TodoItem" errors="0" failures="0" skipped="0" timestamp="2025-05-05T09:14:36" time="1.535" tests="5">
+    <testcase classname="TodoItem renders the todo item correctly" name="TodoItem renders the todo item correctly" time="0.076">
+    </testcase>
+    <testcase classname="TodoItem renders a completed todo with line-through style" name="TodoItem renders a completed todo with line-through style" time="0.038">
+    </testcase>
+    <testcase classname="TodoItem renders todo without description when not provided" name="TodoItem renders todo without description when not provided" time="0.009">
+    </testcase>
+    <testcase classname="TodoItem calls onUpdate when checkbox is clicked" name="TodoItem calls onUpdate when checkbox is clicked" time="0.034">
+    </testcase>
+    <testcase classname="TodoItem calls onDelete when delete button is clicked" name="TodoItem calls onDelete when delete button is clicked" time="0.021">
+    </testcase>
+  </testsuite>
+</testsuites>

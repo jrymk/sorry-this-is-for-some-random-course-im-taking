@@ -1,0 +1,166 @@
+{
+  "config": {
+    "configFile": "C:\\Data\\repos\\School\\sad\\t\\apps\\frontend\\playwright.config.js",
+    "rootDir": "C:/Data/repos/School/sad/t/apps/frontend/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "./test-results/playwright/html-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./test-results/playwright/results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "./test-results/playwright/junit.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Data/repos/School/sad/t/apps/frontend/test-results/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Data/repos/School/sad/t/apps/frontend/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.51.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "todo.spec.js",
+      "file": "todo.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "測試新增待辦事項",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 10,
+                  "error": {
+                    "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\jerry\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1161\\chrome-win\\headless_shell.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     pnpm exec playwright install                                        ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\jerry\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1161\\chrome-win\\headless_shell.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     pnpm exec playwright install                                        ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Executable doesn't exist at C:\\Users\\jerry\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1161\\chrome-win\\headless_shell.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     pnpm exec playwright install                                        ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-05T09:14:06.318Z",
+                  "attachments": [
+                    {
+                      "name": "_prompt-0",
+                      "contentType": "text/markdown",
+                      "body": "IyBJbnN0cnVjdGlvbnMKCi0gRm9sbG93aW5nIFBsYXl3cmlnaHQgdGVzdCBmYWlsZWQuCi0gRXhwbGFpbiB3aHksIGJlIGNvbmNpc2UsIHJlc3BlY3QgUGxheXdyaWdodCBiZXN0IHByYWN0aWNlcy4KLSBQcm92aWRlIGEgc25pcHBldCBvZiBjb2RlIHdpdGggdGhlIGZpeCwgaWYgcG9zc2libGUuCgojIFRlc3QgaW5mbwoKLSBOYW1lOiDmuKzoqabmlrDlop7lvoXovqbkuovpoIUKLSBMb2NhdGlvbjogQzpcRGF0YVxyZXBvc1xTY2hvb2xcc2FkXHRcYXBwc1xmcm9udGVuZFx0ZXN0c1x0b2RvLnNwZWMuanM6NToxCgojIEVycm9yIGRldGFpbHMKCmBgYApFcnJvcjogYnJvd3NlclR5cGUubGF1bmNoOiBFeGVjdXRhYmxlIGRvZXNuJ3QgZXhpc3QgYXQgQzpcVXNlcnNcamVycnlcQXBwRGF0YVxMb2NhbFxtcy1wbGF5d3JpZ2h0XGNocm9taXVtX2hlYWRsZXNzX3NoZWxsLTExNjFcY2hyb21lLXdpblxoZWFkbGVzc19zaGVsbC5leGUK4pWU4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWXCuKVkSBMb29rcyBsaWtlIFBsYXl3cmlnaHQgVGVzdCBvciBQbGF5d3JpZ2h0IHdhcyBqdXN0IGluc3RhbGxlZCBvciB1cGRhdGVkLiDilZEK4pWRIFBsZWFzZSBydW4gdGhlIGZvbGxvd2luZyBjb21tYW5kIHRvIGRvd25sb2FkIG5ldyBicm93c2VyczogICAgICAgICAgICAgIOKVkQrilZEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pWRCuKVkSAgICAgcG5wbSBleGVjIHBsYXl3cmlnaHQgaW5zdGFsbCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilZEK4pWRICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKVkQrilZEgPDMgUGxheXdyaWdodCBUZWFtICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pWRCuKVmuKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVnQpgYGAKCiMgVGVzdCBzb3VyY2UKCmBgYHRzCiAgIDEgfCAvLyBUT0RPOiBQbGF5d3JpZ2h0IOa4rOippuevhOS+iwogICAyIHwKICAgMyB8IGltcG9ydCB7IGV4cGVjdCwgdGVzdCB9IGZyb20gIkBwbGF5d3JpZ2h0L3Rlc3QiOwogICA0IHwKPiAgNSB8IHRlc3QoIua4rOippuaWsOWinuW+hei+puS6i+mghSIsIGFzeW5jICh7IHBhZ2UgfSkgPT4gewogICAgIHwgXiBFcnJvcjogYnJvd3NlclR5cGUubGF1bmNoOiBFeGVjdXRhYmxlIGRvZXNuJ3QgZXhpc3QgYXQgQzpcVXNlcnNcamVycnlcQXBwRGF0YVxMb2NhbFxtcy1wbGF5d3JpZ2h0XGNocm9taXVtX2hlYWRsZXNzX3NoZWxsLTExNjFcY2hyb21lLXdpblxoZWFkbGVzc19zaGVsbC5leGUKICAgNiB8ICAgLy8g5YmN5b6AIFRvZG8gQXBwCiAgIDcgfCAgIGF3YWl0IHBhZ2UuZ290bygiaHR0cDovL2xvY2FsaG9zdDozMDAwIik7CiAgIDggfAogICA5IHwgICAvLyDloavlr6vmlrDlvoXovqbkuovpoIUKICAxMCB8ICAgYXdhaXQgcGFnZS5maWxsKCdpbnB1dFtuYW1lPSJ0aXRsZSJdJywgIuWtuOe/kiBQbGF5d3JpZ2h0Iik7CiAgMTEgfCAgIGF3YWl0IHBhZ2UuZmlsbCgndGV4dGFyZWFbbmFtZT0iZGVzY3JpcHRpb24iXScsICLlrbjnv5IgUGxheXdyaWdodCDnmoTkvb/nlKjmlrnms5UiKTsKICAxMiB8ICAgYXdhaXQgcGFnZS5jbGljaygnYnV0dG9uW3R5cGU9InN1Ym1pdCJdJyk7CiAgMTMgfAogIDE0IHwgICAvLyDnorroqo3mlrDlop7nmoTlvoXovqbkuovpoIXmmK/lkKbmraPnoroKICAxNSB8ICAgY29uc3QgdG9kb0l0ZW0gPSBhd2FpdCBwYWdlLndhaXRGb3JTZWxlY3RvcigiLnRvZG8taXRlbSIpOwogIDE2IHwgICBleHBlY3QodG9kb0l0ZW0pLm5vdC50b0JlTnVsbCgpOwogIDE3IHwgICBleHBlY3QoYXdhaXQgdG9kb0l0ZW0uaW5uZXJUZXh0KCkpLnRvQ29udGFpbigi5a2457+SIFBsYXl3cmlnaHQiKTsKICAxOCB8ICAgZXhwZWN0KGF3YWl0IHRvZG9JdGVtLmlubmVyVGV4dCgpKS50b0NvbnRhaW4oIuWtuOe/kiBQbGF5d3JpZ2h0IOeahOS9v+eUqOaWueazlSIpOwogIDE5IHwgfSk7CiAgMjAgfAogIDIxIHwgdGVzdCgn6IO956+p6YG45bey5a6M5oiQ55qE5b6F6L6m5LqL6aCFJywgKCkgPT4gewogIDIyIHwgICBjb25zdCB0b2RvcyA9IFsKICAyMyB8ICAgICB7IGlkOiAxLCB0ZXh0OiAn6K6A5pu4JywgY29tcGxldGVkOiB0cnVlIH0sCiAgMjQgfCAgICAgeyBpZDogMiwgdGV4dDogJ+Wvq+S9nOalrScsIGNvbXBsZXRlZDogZmFsc2UgfQogIDI1IHwgICBdOwogIDI2IHwgICAKICAyNyB8ICAgY29uc3QgZmlsdGVyZWQgPSBmaWx0ZXJUb2Rvcyh0b2RvcywgJ2NvbXBsZXRlZCcpOwogIDI4IHwgICAKICAyOSB8ICAgZXhwZWN0KGZpbHRlcmVkLmxlbmd0aCkudG9CZSgxKTsKICAzMCB8ICAgZXhwZWN0KGZpbHRlcmVkWzBdLmlkKS50b0JlKDEpOwogIDMxIHwgfSk7CiAgMzIgfCAgCiAgMzMgfCAvLyAyLiDlr6bnj77lip/og73kvb/muKzoqabpgJrpgY4KICAzNCB8IGZ1bmN0aW9uIGZpbHRlclRvZG9zKHRvZG9zLCBmaWx0ZXIpIHsKICAzNSB8ICAgaWYgKGZpbHRlciA9PT0gJ2NvbXBsZXRlZCcpIHsKICAzNiB8ICAgICByZXR1cm4gdG9kb3MuZmlsdGVyKHRvZG8gPT4gdG9kby5jb21wbGV0ZWQpOwogIDM3IHwgICB9CiAgMzggfCAgIGlmIChmaWx0ZXIgPT09ICdhY3RpdmUnKSB7CiAgMzkgfCAgICAgcmV0dXJuIHRvZG9zLmZpbHRlcih0b2RvID0+ICF0b2RvLmNvbXBsZXRlZCk7CiAgNDAgfCAgIH0KICA0MSB8ICAgcmV0dXJuIHRvZG9zOyAvLyAnYWxsJyBmaWx0ZXIKICA0MiB8IH0KICA0MyB8ICAKICA0NCB8IC8vIDMuIOmHjeani++8iOWmguaenOmcgOimge+8iQpgYGA="
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "486a7bbfb15f2ca1070b-db3c1e33c540dc519e2b",
+          "file": "todo.spec.js",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "能篩選已完成的待辦事項",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-05T09:14:07.529Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "486a7bbfb15f2ca1070b-53fca0eea79b7d4e1f82",
+          "file": "todo.spec.js",
+          "line": 21,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-05-05T09:14:05.159Z",
+    "duration": 2421.355,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

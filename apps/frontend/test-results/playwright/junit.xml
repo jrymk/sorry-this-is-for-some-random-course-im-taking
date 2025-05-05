@@ -1,0 +1,22 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="2.421355">
+<testsuite name="todo.spec.js" timestamp="2025-05-05T09:14:05.201Z" hostname="chromium" tests="2" failures="1" skipped="0" time="0.026" errors="0">
+<testcase name="測試新增待辦事項" classname="todo.spec.js" time="0.01">
+<failure message="todo.spec.js:5:1 測試新增待辦事項" type="FAILURE">
+<![CDATA[  [chromium] › todo.spec.js:5:1 › 測試新增待辦事項 ─────────────────────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at C:\Users\jerry\AppData\Local\ms-playwright\chromium_headless_shell-1161\chrome-win\headless_shell.exe
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="能篩選已完成的待辦事項" classname="todo.spec.js" time="0.016">
+</testcase>
+</testsuite>
+</testsuites>
